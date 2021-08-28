@@ -8,10 +8,14 @@
     'Courier New', monospace;
   --font-serif: 'Times New Roman', Times, serif;
 
+  /* navigation */
+  --navigation-bar-height: 64px;
+
   /* palette */
   --white: #fff;
   --black: #000;
   --black-fade-5: rgba(0, 0, 0, 0.05);
+  --charcoal: #231F20;
 
   /* radii */
   --radius-sm: 4px;
@@ -53,7 +57,7 @@
   /* tokens */
   /* colors */
   --primary: #4a90e2;
-  --background: var(--white);
+  --background: var(--charcoal);
   --border: var(--black-fade-5);
 
   /* text */
@@ -69,7 +73,7 @@
   /* size */
   --size-gutter: var(--space-2xl);
   --size-logo: var(--space-2xl);
-  --size-max-width: 80rem;
+  --size-max-width: 1920px;
 }
 
 @media (min-width: 480px) {
